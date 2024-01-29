@@ -1,3 +1,69 @@
 body {
+    display: flex;
     margin: 0;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(208, 45%, 88%);
+}
+
+#myH1 {
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    padding: 30px;
+    background-color: white;
+}
+
+#display {
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.699);
+    text-shadow: 2px 2px 2px rgba(43, 43, 43, 0.356);
+    margin-bottom: 25px;
+}
+
+#controls button {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: black;
+    transition: background-color 0.5s ease;
+}
+
+#startBTN {
+    background-color: hsl(84, 100%, 50%);
+}
+
+#startBTN:hover {
+    background-color: hsl(84, 100%, 35%);
+}
+
+#stopBTN {
+    background-color: hsla(0, 100%, 50%, 0.74);
+}
+
+#stopBTN:hover {
+    background-color: hsla(0, 100%, 35%, 0.74);
+}
+
+#resetBTN {
+    background-color: hsla(240, 100%, 50%, 0.63);
+}
+
+#resetBTN:hover {
+    background-color: hsla(240, 100%, 35%, 0.63);
 }
